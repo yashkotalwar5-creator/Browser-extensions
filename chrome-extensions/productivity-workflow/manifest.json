@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "Productivity Automation Engine",
+  "version": "1.0",
+  "description": "Snippet expanders, HTML Table to Excel data parsers.",
+  "permissions": ["activeTab"],
+  "content_scripts": [{"matches": ["<all_urls>"], "js": ["content.js"], "run_at": "document_end"}]
+}
